@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="worktest.test2datadriven">
+        <methods>
+          <include name="setup"/>
+          <include name="main"/>
+          <include name="urlload"/>
+        </methods>
+      </class> <!-- worktest.test2datadriven -->
+      <class name="worktest.imageupload">
+        <methods>
+          <include name="work"/>
+          <include name="setup"/>
+          <include name="urlload"/>
+        </methods>
+      </class> <!-- worktest.imageupload -->
+      <class name="worktest.alertwtest">
+        <methods>
+          <include name="setup"/>
+          <include name="test"/>
+          <include name="urlload"/>
+        </methods>
+      </class> <!-- worktest.alertwtest -->
+      <class name="worktest.wtest2dragdrop">
+        <methods>
+          <include name="drag"/>
+          <include name="setup"/>
+          <include name="urlload"/>
+        </methods>
+      </class> <!-- worktest.wtest2dragdrop -->
+      <class name="worktest.work1test_datainputscrnshot">
+        <methods>
+          <include name="urlload"/>
+          <include name="lettest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- worktest.work1test_datainputscrnshot -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
